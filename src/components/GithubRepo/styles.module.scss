@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #aaaaaa !important;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0 !important;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.btn {
+  border: 1px solid #aaaaaa !important;
+  border-radius: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  :global i {
+    font-size: 19px;
+    line-height: 15px;
+    margin-right: 5px;
+  }
+}
+
+.badge {
+  margin-bottom: 0;
+  padding-top: 1px;
+  border-radius: 0;
+  // background: #fff;
+  // color: #000;
+  border: solid 1px #aaa;  
+}
