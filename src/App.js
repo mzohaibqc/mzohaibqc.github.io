@@ -4,7 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 
 import './App.scss';
 import Nav from './components/Nav';
-import Loading from './components/Loading';
+// import Loading from './components/Loading';
 import Section from './components/Section';
 import LineArt from './components/LineArt';
 import SkillSet from './components/SkillSet';
