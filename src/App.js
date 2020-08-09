@@ -132,7 +132,7 @@ function App() {
                 <div className="img-holder">
                   <img
                     src="/assets/images/profile.jpg"
-                    className="img-responsive img-circle"
+                    className="rounded-circle img-fluid"
                     alt="Zohaib Ijaz"
                   />
                 </div>

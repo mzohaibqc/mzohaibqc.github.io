@@ -1,34 +1,33 @@
 {
-  "name": "cra3-hmr",
+  "name": "cra-hmr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@hot-loader/react-dom": "^16.13.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^26.0.0",
-    "@types/node": "^14.0.13",
-    "@types/react": "^16.9.36",
-    "@types/react-dom": "^16.9.8",
-    "classnames": "^2.2.6",
-    "dayjs": "^1.8.29",
-    "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
+    "antd": "^4.4.2",
     "react": "^16.13.1",
-    "react-app-rewire-hot-loader": "^2.0.1",
-    "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.21",
-    "react-owl-carousel": "^2.3.1",
-    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "^3.9.5"
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0"
   },
+  "author": {
+    "name": "mzohaibqc",
+    "url": "https://github.com/mzohaibqc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mzohaibqc/mzohaibqc.github.io"
+  },
+  "homepage": "https://mzohaibqc.github.io",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test"
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint --fix src config-overrides.js -c .eslintrc.js --ignore-path .eslintignore",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,6 +45,19 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "^7.10.1"
+    "@hot-loader/react-dom": "^16.13.0",
+    "antd-dayjs-webpack-plugin": "^1.0.0",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^1.0.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "gh-pages": "^3.1.0",
+    "less-loader": "^6.2.0",
+    "prettier": "^2.0.5",
+    "react-app-rewired": "^2.1.6",
+    "react-hot-loader": "^4.12.21"
   }
 }

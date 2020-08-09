@@ -1796,29 +1796,29 @@ section {
     color: #444444;
   }
 }
-.owl-carousel {
-  .owl-nav {
-    .owl-prev, .owl-next, .owl-next:focus, .owl-prev:focus {
-      outline: none;
-      span {
-        font-size: 27px;
-      }
-    }
-    [class*='owl-']:hover {
-      background: none;
-      color: inherit;
-      line-height: 20px;
-    }
-  }
+// .owl-carousel {
+//   .owl-nav {
+//     .owl-prev, .owl-next, .owl-next:focus, .owl-prev:focus {
+//       outline: none;
+//       span {
+//         font-size: 27px;
+//       }
+//     }
+//     [class*='owl-']:hover {
+//       background: none;
+//       color: inherit;
+//       line-height: 20px;
+//     }
+//   }
 
-	.owl-dots {
-		display: none;
-	}
+// 	.owl-dots {
+// 		display: none;
+// 	}
 
-  img.reading-img {
-    height: 218px !important;
-  }
-}
+//   img.reading-img {
+//     height: 218px !important;
+//   }
+// }
 
 iframe.npm-stats {
   width: 100%;
